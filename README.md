@@ -16,7 +16,7 @@ Collection of instructions, for me
 #### 요약 (Windows)
 1. VSCode Extension `ms-dotnettools.csharp` 설치
 2. `.NET Core SDK`가 없으면 설치하라고 주소까지 띄워줌 (Extension v1.23.9 기준 SDK는 v5.0.202)
-3. `.NET Framework 4.7.1`까지 설치
+3. `.NET Framework 4.7.1`도 설치 ([Download .NET Framework 4.7.1](https://dotnet.microsoft.com/download/dotnet-framework/net471))
 4. 리부팅 (안 하면 VSCode가 dotnet을 못 찾더라..)
 5. `Unity > Edit > Preferences > External Tools > External Script Editor`를 `Visual Studio Code`로 변경
 6. Unity > Assets > Open C# Project
