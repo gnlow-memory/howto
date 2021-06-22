@@ -20,3 +20,5 @@ Collection of instructions, for me
 4. 리부팅 (안 하면 VSCode가 dotnet을 못 찾더라..)
 5. `Unity > Edit > Preferences > External Tools > External Script Editor`를 `Visual Studio Code`로 변경
 6. Unity > Assets > Open C# Project
+## Vital (VST)
+- [Free Vital Synth - Full Tutorial - In the Mix](https://www.youtube.com/watch?v=7qQX6YGBQEA)
