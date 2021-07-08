@@ -1,3 +1,5 @@
+https://winaero.com/how-to-move-taskbar-in-windows-11-change-taskbar-location/
+---
 How to Move Taskbar in Windows 11 (Change Taskbar Location)
 11 Replies
 
@@ -10,15 +12,15 @@ Perhaps the worst change made to taskbar is its location. Windows 11 doesn't all
 This post will show you how to move the taskbar and change its location in Windows 11. You can either place it at the top or bottom.
 Move Taskbar in Windows 11 and Change its Location
 
-    1. Press Win + R and type regedit in the Run dialog to open the Registry editor.
-    2. Navigate to the key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\StuckRects3​.
-    3. Right-click the StuckRects3 key and select Export... from the menu. Save the REG file to the Desktop folder.Windows 11 Export The StuckRects3 Key
-    4. Double-click the Settings value.
-    5. In the 0008 row, place your cursor to the fifth column, where you see the 03 value.Windows 11 Change Taskbar Location
-    6. ![image](https://user-images.githubusercontent.com/27040628/124930899-abce0f80-e03c-11eb-84e8-a93683e56f2c.png)
-    7. Press DEL to remove 03, and type 01.type 01 instead of 03
-    8. Click on OK in the Edit binary value dialog.
-    9. Restart the Explorer shell using the Task Manager method.
+1. Press Win + R and type regedit in the Run dialog to open the Registry editor.
+2. Navigate to the key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\StuckRects3​.
+3. Right-click the StuckRects3 key and select Export... from the menu. Save the REG file to the Desktop folder.Windows 11 Export The StuckRects3 Key
+4. Double-click the Settings value.
+5. In the 0008 row, place your cursor to the fifth column, where you see the 03 value.Windows 11 Change Taskbar Location
+   ![image](https://user-images.githubusercontent.com/27040628/124930899-abce0f80-e03c-11eb-84e8-a93683e56f2c.png)
+6. Press DEL to remove 03, and type 01.type 01 instead of 03
+7. Click on OK in the Edit binary value dialog.
+8. Restart the Explorer shell using the Task Manager method.
 
 You're done! The taskbar now appears at the top.
 
