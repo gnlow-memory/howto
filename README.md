@@ -1,5 +1,10 @@
 # howto
 Collection of instructions, for me
+## Rust
+- [C++ 빌드툴 없이 Rust 설치](https://www.reddit.com/r/rust/comments/hv823s/how_to_install_rust_without_the_c_build_tools/)
+  - > You can install mingw-w64 and use nightly/beta/stable-x86_64-pc-windows-gnu instead
+- [cargo 빌드 실패 해결](https://stackoverflow.com/a/68596301)
+  - > `rustup default stable-x86_64-pc-windows-gnu`
 ## Git
 - [GitHub SSH key 생성](https://syung05.tistory.com/20)
 ## Svelte
